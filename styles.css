@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
+
+}
+
+.entireGame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 10px solid red; */
+    height: 830px;
+}
+
+.choiceImage{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.score{
+    /* border: 10px solid red; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.playerChoice{
+    /* border: 10px solid red; */
+    margin-bottom: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.resetGame{
+    width: 400px;
+    /* border: 10px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+}
